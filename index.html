@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read and study the Dhammapada (法句经) — the classical Chinese T0210 translation — chapter by chapter with verse-by-verse explanation in English and Chinese.">
+  <title>Dhammapada | 法句经</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ── Chapter grid (39 cards, compact) ── */
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 0.75rem;
+      max-width: 960px;
+      margin: 1.5rem auto 3.5rem;
+      padding: 0 1.5rem;
+    }
+
+    .chapter-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      padding: 1rem 1rem 0.9rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    }
+
+    .chapter-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.09);
+      border-color: var(--red);
+    }
+
+    .chapter-num {
+      font-size: 0.72rem;
+      color: var(--saffron);
+      letter-spacing: 0.1em;
+      font-family: "Noto Sans SC", sans-serif;
+    }
+
+    .chapter-zh {
+      font-family: "Noto Serif SC", serif;
+      font-size: 0.97rem;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.3;
+    }
+
+    .chapter-en {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      .chapter-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="portal-bar">
+  <a href="https://lugh3456.github.io/DharmaGate/" class="portal-bar-link">← The Dharma Gate · 法门无量</a>
+</div>
+
+<header class="site-header">
+  <h1>Dhammapada</h1>
+  <p class="header-zh">法句经</p>
+  <p class="header-tradition">大正藏 No. 0210 · 吴 维祇难等译</p>
+</header>
+
+<section class="intro">
+  <p>
+    The Dhammapada (法句经) is one of Buddhism's most treasured anthologies of teaching verses.
+    This site presents the classical Chinese T0210 translation — rendered by Vighna and Zhu Liuyan
+    in 224 CE during the Kingdom of Wu — comprising 752 verses in 39 chapters. The terse four-character
+    lines carry the full weight of the Dharma: impermanence, mind, virtue, the path, and liberation.
+    <em>心为法本 — mind is the root of all dharmas.</em>
+  </p>
+</section>
+
+<main class="chapter-grid" id="main-content">
+
+  <a href="section1.html" class="chapter-card">
+    <span class="chapter-num">第一章</span>
+    <span class="chapter-zh">无常品</span>
+    <span class="chapter-en">Impermanence</span>
+  </a>
+
+  <a href="section2.html" class="chapter-card">
+    <span class="chapter-num">第二章</span>
+    <span class="chapter-zh">教学品</span>
+    <span class="chapter-en">Learning</span>
+  </a>
+
+  <a href="section3.html" class="chapter-card">
+    <span class="chapter-num">第三章</span>
+    <span class="chapter-zh">多闻品</span>
+    <span class="chapter-en">Extensive Hearing</span>
+  </a>
+
+  <a href="section4.html" class="chapter-card">
+    <span class="chapter-num">第四章</span>
+    <span class="chapter-zh">笃信品</span>
+    <span class="chapter-en">Faith</span>
+  </a>
+
+  <a href="section5.html" class="chapter-card">
+    <span class="chapter-num">第五章</span>
+    <span class="chapter-zh">戒慎品</span>
+    <span class="chapter-en">Precepts</span>
+  </a>
+
+  <a href="section6.html" class="chapter-card">
+    <span class="chapter-num">第六章</span>
+    <span class="chapter-zh">惟念品</span>
+    <span class="chapter-en">Mindfulness</span>
+  </a>
+
+  <a href="section7.html" class="chapter-card">
+    <span class="chapter-num">第七章</span>
+    <span class="chapter-zh">慈仁品</span>
+    <span class="chapter-en">Loving-kindness</span>
+  </a>
+
+  <a href="section8.html" class="chapter-card">
+    <span class="chapter-num">第八章</span>
+    <span class="chapter-zh">言语品</span>
+    <span class="chapter-en">Speech</span>
+  </a>
+
+  <a href="section9.html" class="chapter-card">
+    <span class="chapter-num">第九章</span>
+    <span class="chapter-zh">双要品</span>
+    <span class="chapter-en">The Pairs</span>
+  </a>
+
+  <a href="section10.html" class="chapter-card">
+    <span class="chapter-num">第十章</span>
+    <span class="chapter-zh">放逸品</span>
+    <span class="chapter-en">Heedlessness</span>
+  </a>
+
+  <a href="section11.html" class="chapter-card">
+    <span class="chapter-num">第十一章</span>
+    <span class="chapter-zh">心意品</span>
+    <span class="chapter-en">The Mind</span>
+  </a>
+
+  <a href="section12.html" class="chapter-card">
+    <span class="chapter-num">第十二章</span>
+    <span class="chapter-zh">华香品</span>
+    <span class="chapter-en">Flowers and Fragrance</span>
+  </a>
+
+  <a href="section13.html" class="chapter-card">
+    <span class="chapter-num">第十三章</span>
+    <span class="chapter-zh">愚闇品</span>
+    <span class="chapter-en">Fools</span>
+  </a>
+
+  <a href="section14.html" class="chapter-card">
+    <span class="chapter-num">第十四章</span>
+    <span class="chapter-zh">明哲品</span>
+    <span class="chapter-en">The Wise</span>
+  </a>
+
+  <a href="section15.html" class="chapter-card">
+    <span class="chapter-num">第十五章</span>
+    <span class="chapter-zh">罗汉品</span>
+    <span class="chapter-en">The Arahant</span>
+  </a>
+
+  <a href="section16.html" class="chapter-card">
+    <span class="chapter-num">第十六章</span>
+    <span class="chapter-zh">述千品</span>
+    <span class="chapter-en">Thousands</span>
+  </a>
+
+  <a href="section17.html" class="chapter-card">
+    <span class="chapter-num">第十七章</span>
+    <span class="chapter-zh">恶行品</span>
+    <span class="chapter-en">Evil Deeds</span>
+  </a>
+
+  <a href="section18.html" class="chapter-card">
+    <span class="chapter-num">第十八章</span>
+    <span class="chapter-zh">刀杖品</span>
+    <span class="chapter-en">Rods and Weapons</span>
+  </a>
+
+  <a href="section19.html" class="chapter-card">
+    <span class="chapter-num">第十九章</span>
+    <span class="chapter-zh">老耗品</span>
+    <span class="chapter-en">Old Age</span>
+  </a>
+
+  <a href="section20.html" class="chapter-card">
+    <span class="chapter-num">第二十章</span>
+    <span class="chapter-zh">爱身品</span>
+    <span class="chapter-en">The Self</span>
+  </a>
+
+  <a href="section21.html" class="chapter-card">
+    <span class="chapter-num">第二十一章</span>
+    <span class="chapter-zh">世俗品</span>
+    <span class="chapter-en">The World</span>
+  </a>
+
+  <a href="section22.html" class="chapter-card">
+    <span class="chapter-num">第二十二章</span>
+    <span class="chapter-zh">述佛品</span>
+    <span class="chapter-en">The Buddha</span>
+  </a>
+
+  <a href="section23.html" class="chapter-card">
+    <span class="chapter-num">第二十三章</span>
+    <span class="chapter-zh">安宁品</span>
+    <span class="chapter-en">Peace</span>
+  </a>
+
+  <a href="section24.html" class="chapter-card">
+    <span class="chapter-num">第二十四章</span>
+    <span class="chapter-zh">好喜品</span>
+    <span class="chapter-en">Pleasure</span>
+  </a>
+
+  <a href="section25.html" class="chapter-card">
+    <span class="chapter-num">第二十五章</span>
+    <span class="chapter-zh">忿怒品</span>
+    <span class="chapter-en">Anger</span>
+  </a>
+
+  <a href="section26.html" class="chapter-card">
+    <span class="chapter-num">第二十六章</span>
+    <span class="chapter-zh">尘垢品</span>
+    <span class="chapter-en">Impurity</span>
+  </a>
+
+  <a href="section27.html" class="chapter-card">
+    <span class="chapter-num">第二十七章</span>
+    <span class="chapter-zh">奉持品</span>
+    <span class="chapter-en">Observance</span>
+  </a>
+
+  <a href="section28.html" class="chapter-card">
+    <span class="chapter-num">第二十八章</span>
+    <span class="chapter-zh">道行品</span>
+    <span class="chapter-en">The Path</span>
+  </a>
+
+  <a href="section29.html" class="chapter-card">
+    <span class="chapter-num">第二十九章</span>
+    <span class="chapter-zh">广衍品</span>
+    <span class="chapter-en">Broad Cultivation</span>
+  </a>
+
+  <a href="section30.html" class="chapter-card">
+    <span class="chapter-num">第三十章</span>
+    <span class="chapter-zh">地狱品</span>
+    <span class="chapter-en">Hell</span>
+  </a>
+
+  <a href="section31.html" class="chapter-card">
+    <span class="chapter-num">第三十一章</span>
+    <span class="chapter-zh">象喻品</span>
+    <span class="chapter-en">The Elephant</span>
+  </a>
+
+  <a href="section32.html" class="chapter-card">
+    <span class="chapter-num">第三十二章</span>
+    <span class="chapter-zh">爱欲品</span>
+    <span class="chapter-en">Craving</span>
+  </a>
+
+  <a href="section33.html" class="chapter-card">
+    <span class="chapter-num">第三十三章</span>
+    <span class="chapter-zh">利养品</span>
+    <span class="chapter-en">Gain and Support</span>
+  </a>
+
+  <a href="section34.html" class="chapter-card">
+    <span class="chapter-num">第三十四章</span>
+    <span class="chapter-zh">沙门品</span>
+    <span class="chapter-en">The Monk</span>
+  </a>
+
+  <a href="section35.html" class="chapter-card">
+    <span class="chapter-num">第三十五章</span>
+    <span class="chapter-zh">梵志品</span>
+    <span class="chapter-en">The Brahmin</span>
+  </a>
+
+  <a href="section36.html" class="chapter-card">
+    <span class="chapter-num">第三十六章</span>
+    <span class="chapter-zh">泥洹品</span>
+    <span class="chapter-en">Nirvana</span>
+  </a>
+
+  <a href="section37.html" class="chapter-card">
+    <span class="chapter-num">第三十七章</span>
+    <span class="chapter-zh">生死品</span>
+    <span class="chapter-en">Birth and Death</span>
+  </a>
+
+  <a href="section38.html" class="chapter-card">
+    <span class="chapter-num">第三十八章</span>
+    <span class="chapter-zh">道利品</span>
+    <span class="chapter-en">The Way and Benefit</span>
+  </a>
+
+  <a href="section39.html" class="chapter-card">
+    <span class="chapter-num">第三十九章</span>
+    <span class="chapter-zh">吉祥品</span>
+    <span class="chapter-en">Blessings</span>
+  </a>
+
+</main>
+
+<footer class="site-footer">
+  <p>法句经 · 大正藏 No. 0210 · 吴 维祇难等译</p>
+  <p><a href="https://lugh3456.github.io/DharmaGate/">The Dharma Gate</a></p>
+</footer>
+
+</body>
+</html>
