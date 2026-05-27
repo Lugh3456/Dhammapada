@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhammapada — 第二十八章 | 道行品 The Path</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="portal-bar">
+  <a href="https://lugh3456.github.io/DharmaGate/" class="portal-bar-link">← The Dharma Gate · 法门无量</a>
+</div>
+
+<header class="section-header">
+  <h1>第二十八章 · 道行品</h1>
+  <p class="header-zh">法句经 · Dhammapada</p>
+  <nav class="section-nav" aria-label="Chapter navigation">
+    <a href="section27.html" class="back-link">← 第二十七章</a>
+    <a href="index.html" class="back-link">目录 Contents</a>
+    <a href="section29.html" class="back-link">第二十九章 →</a>
+  </nav>
+</header>
+
+<main class="section-container" id="main-content">
+
+  <section class="full-text">
+    <p id="chineseText">
+      八直最上道，四谛为正说，不淫为上行，施灯为明尊。此道无有边，彼无忧畏境，以此界度彼，人当自净心。吾已告汝道，拔去众苦刺，当以自精进，知道自行道。汝等当自修，如来不能为，已入禅定者，得脱魔罗缚。一切行无常，以慧观照者，即得厌苦患，是道得清净。一切行是苦，以慧观照者，即得厌苦患，是道得清净。一切法无我，以慧观照者，即得厌苦患，是道得清净。应起而不起，应去而不去，贪惰自奔驰，是则为损减。所行非善道，自以为善道，人趣放逸路，魔罗之所诱。若人不能知，此道不能行，以是行余道，无益自煎熬。道为知者铺，路为行者履，从此世彼世，自利利群生。
+    </p>
+    <button onclick="speak(document.getElementById('chineseText').innerText)" class="read-btn">
+      🔊 聆听经文
+    </button>
+  </section>
+
+  <section class="line-explanation">
+    <h2>逐句解释</h2>
+
+    <div class="explanation-card">
+      <p class="line"><strong>八直最上道，四谛为正说，不淫为上行，施灯为明尊。</strong></p>
+      <p class="explanation-zh">八正道是最上之道，四谛是正确的说法，不淫是最上行，施灯为明者之尊。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">The Eightfold Path is the most excellent path; the Four Truths are the correct teaching; non-lust is the most excellent conduct; giving light is the venerable of the luminous.</p>
+        <p class="explanation">The Buddha's core teaching in miniature: the Eightfold Path, Four Truths, and two specific virtues (non-lust, generosity of light/knowledge).</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>此道无有边，彼无忧畏境，以此界度彼，人当自净心。</strong></p>
+      <p class="explanation-zh">此道无有边际，彼（涅槃）是无忧畏的境界，以此（道）度越彼（苦界），人应当自净其心。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">This path has no limit; that (Nirvana) is the realm without worry or fear; crossing to that with this (path) — a person should purify their own mind.</p>
+        <p class="explanation">The unlimited path leading to the limitless realm. The requirement: self-purification of the mind. No one else can do it.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>吾已告汝道，拔去众苦刺，当以自精进，知道自行道。</strong></p>
+      <p class="explanation-zh">我已告诉你此道，拔去众多苦刺，应当以自我精进，知道而自行此道。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">I have already shown you the path — it removes all thorns of suffering; you should with your own diligence, knowing the path, walk it yourself.</p>
+        <p class="explanation">The Buddha's final statement to each practitioner: I have shown it; now you must walk it. No vicarious practice.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>汝等当自修，如来不能为，已入禅定者，得脱魔罗缚。</strong></p>
+      <p class="explanation-zh">你等应当自我修行，如来不能（为你）做，已进入禅定者，得脱魔罗之缚。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">You must practice yourselves; the Tathāgata cannot do it for you; those who have entered meditation — are freed from the bonds of Mara.</p>
+        <p class="explanation">The most explicit statement of the Buddha's role: teacher, not savior. Meditation entered, Mara's bonds are broken.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>一切行无常，以慧观照者，即得厌苦患，是道得清净。</strong></p>
+      <p class="explanation-zh">一切行（为）无常，以智慧观照者，即得厌离苦患，这是道的清净。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">All formations are impermanent; one who observes with wisdom — immediately attains weariness of suffering; this is the purity of the path.</p>
+        <p class="explanation">Impermanence + wisdom-contemplation = weariness of suffering = path-purity. The seeing of impermanence with wisdom naturally produces the turning away from suffering.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>一切行是苦，以慧观照者，即得厌苦患，是道得清净。</strong></p>
+      <p class="explanation-zh">一切行（为）苦，以智慧观照者，即得厌离苦患，这是道的清净。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">All formations are suffering; one who observes with wisdom — immediately attains weariness of suffering; this is the purity of the path.</p>
+        <p class="explanation">The second characteristic applied: suffering seen clearly with wisdom produces the same result — weariness and purification.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>一切法无我，以慧观照者，即得厌苦患，是道得清净。</strong></p>
+      <p class="explanation-zh">一切法无我，以智慧观照者，即得厌离苦患，这是道的清净。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">All dharmas are without self; one who observes with wisdom — immediately attains weariness of suffering; this is the purity of the path.</p>
+        <p class="explanation">The three characteristics as a triple path: impermanence, suffering, non-self — each observed with wisdom produces liberation.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>应起而不起，应去而不去，贪惰自奔驰，是则为损减。</strong></p>
+      <p class="explanation-zh">应当起时而不起，应当去时而不去，贪惰自行奔驰，这是减损。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Not rising when one should rise; not going when one should go; craving and laziness run of themselves — this is diminishment.</p>
+        <p class="explanation">The cost of sloth: missed opportunities, craving and laziness taking over, and the gradual diminishment of the practitioner.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>所行非善道，自以为善道，人趣放逸路，魔罗之所诱。</strong></p>
+      <p class="explanation-zh">所行非善道，自以为是善道，人趣向放逸之路，是魔罗所诱惑的。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">What is practiced is not the good path, yet one thinks it is the good path; a person heading toward the path of heedlessness — is being led by Mara.</p>
+        <p class="explanation">Mara's subtlest work: not open temptation but the quiet substitution of heedlessness for genuine practice, while convincing the practitioner they are on the right path.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>若人不能知，此道不能行，以是行余道，无益自煎熬。</strong></p>
+      <p class="explanation-zh">若人不能了知此道，不能行此道，以此（无知）行其他道，无益而自煎熬。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">If a person cannot know this path, cannot walk this path — walking other paths through this (ignorance) is without benefit and causes self-torment.</p>
+        <p class="explanation">Wrong paths are not merely ineffective but actively harmful: they cause the practitioner to 'self-torment' — expending effort that produces no liberation.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>道为知者铺，路为行者履，从此世彼世，自利利群生。</strong></p>
+      <p class="explanation-zh">道为知者所铺，路为行者所履，从此世到彼世，自利而利群生。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">The path is laid out for those who know; the road is walked by those who practice; from this world to the next — benefiting oneself and all beings.</p>
+        <p class="explanation">The path requires both knowledge (understanding) and practice (walking). Knowledge without walking, or walking without understanding, is incomplete. Both together produce benefit across lives.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>勤行道，仁者以佛语。</strong></p>
+      <p class="explanation-zh">勤行此道，仁者！以佛语为依，知无常苦无我，得苦际。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Practice the path diligently, benevolent one! Relying on the Buddha's words — knowing impermanence, suffering, and non-self, attaining the shore of suffering's end.</p>
+        <p class="explanation">The direct exhortation to the practitioner: diligence, reliance on the teaching, the three characteristics, liberation. The chapter's essential message condensed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="summary">
+    <h2>总结 · Summary</h2>
+    <p class="summary-zh">道行品十二颂，是全书最具系统性的修道论。八正道最上，四谛正说；三相（无常、苦、无我）以慧观照各得清净；汝等当自修，如来不能为。道为知者铺，路为行者履——知与行缺一不可。魔罗之诱不在明处，在于以放逸冒充善道。知此道，行此道，自利利群生。</p>
+    <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+    <div class="detail-content" hidden>
+      <p class="explanation">The Path presents twelve verses as the most systematic account of practice in the T0210. The Eightfold Path is most excellent; the Four Truths are the correct teaching; the three characteristics observed with wisdom each produce purity. Most importantly: you must practice yourselves — the Tathāgata cannot do it for you. The path is laid out for those who know; it is walked by those who practice. Mara's subtlest work is convincing practitioners they are on the right path while they drift into heedlessness.</p>
+    </div>
+  </section>
+
+</main>
+
+<script>
+function toggleDetail(btn) {
+  var content = btn.nextElementSibling;
+  var isHidden = content.hidden;
+  content.hidden = !isHidden;
+  btn.setAttribute('aria-expanded', isHidden);
+  if (isHidden) {
+    btn.textContent = btn.textContent.replace('▾', '▴');
+  } else {
+    btn.textContent = btn.textContent.replace('▴', '▾');
+  }
+}
+
+function speak(text) {
+  const synth = window.speechSynthesis;
+  function loadAndSpeak() {
+    const voices = synth.getVoices();
+    const preferred = voices.find(v => v.name.includes("Ting") && v.lang === "zh-CN");
+    const msg = new SpeechSynthesisUtterance(text);
+    msg.lang = "zh-CN";
+    if (preferred) msg.voice = preferred;
+    msg.rate = 0.9;
+    msg.pitch = 1;
+    synth.speak(msg);
+  }
+  if (speechSynthesis.getVoices().length === 0) {
+    speechSynthesis.onvoiceschanged = loadAndSpeak;
+  } else {
+    loadAndSpeak();
+  }
+}
+</script>
+
+<footer class="site-footer">
+  <a href="https://lugh3456.github.io/DharmaGate/" class="footer-portal-link">The Dharma Gate · 法门无量</a>
+  <p>&copy; 2026 Dhammapada Study</p>
+</footer>
+
+</body>
+</html>
