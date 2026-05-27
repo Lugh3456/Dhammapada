@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhammapada — 第八章 | 言语品 Speech</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<div class="portal-bar">
+  <a href="https://lugh3456.github.io/DharmaGate/" class="portal-bar-link">← The Dharma Gate · 法门无量</a>
+</div>
+
+<header class="section-header">
+  <h1>第八章 · 言语品</h1>
+  <p class="header-zh">法句经 · Dhammapada</p>
+  <nav class="section-nav" aria-label="Chapter navigation">
+    <a href="section7.html" class="back-link">← 第七章</a>
+    <a href="index.html" class="back-link">目录 Contents</a>
+    <a href="section9.html" class="back-link">第九章 →</a>
+  </nav>
+</header>
+
+<main class="section-container" id="main-content">
+
+  <section class="full-text">
+    <p id="chineseText">
+      恶言骂詈，憍陵蔑人，兴起是行，疾怨滋生。逊言顺辞，尊敬于人，弃结忍恶，疾怨自灭。夫士之生，斧在口中，所以斩身，由其恶言。诤为少利，如掩失财，从彼致诤，令意向恶。誉恶恶所誉，是二俱为恶，好以口侩斗，是后皆无安。无道堕恶道，自增地狱苦，远愚修忍意，念谛则无犯。从善得解脱，为恶不得解，善解者为贤，是为脱恶恼。解自抱损意，不躁言得中，义说如法说，是言柔软甘。是以言语者，必使己无患，亦不克众人，是为能善言。言使投意可，亦令得欢喜，不使至恶意，出言众悉可。至诚甘露说，如法而无过，谛如义如法，是为近道立。说如佛言者，是吉得灭度，为能作浩际，是谓言中上。
+    </p>
+    <button onclick="speak(document.getElementById('chineseText').innerText)" class="read-btn">
+      🔊 聆听经文
+    </button>
+  </section>
+
+  <section class="line-explanation">
+    <h2>逐句解释</h2>
+
+    <div class="explanation-card">
+      <p class="line"><strong>恶言骂詈，憍陵蔑人，兴起是行，疾怨滋生。</strong></p>
+      <p class="explanation-zh">恶言骂人，骄横轻蔑他人，兴起这样的行为，怨恨很快就会滋生。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Harsh words and abuse; arrogantly despising people — giving rise to such conduct, enmity swiftly grows.</p>
+        <p class="explanation">The causal chain is stated plainly: harsh speech → enmity. No additional mechanism is needed; the connection is direct and reliable.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>逊言顺辞，尊敬于人，弃结忍恶，疾怨自灭。</strong></p>
+      <p class="explanation-zh">言语谦逊，辞句温顺，尊敬他人，放弃结缚，忍耐恶意，怨恨很快就会自然消灭。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Humble and gentle words; respectful toward people; abandoning bonds and bearing ill — enmity quickly vanishes of itself.</p>
+        <p class="explanation">The same causal chain reversed: gentle speech → dissolution of enmity. Enmity is not permanent; it depends on what we feed it.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>夫士之生，斧在口中，所以斩身，由其恶言。</strong></p>
+      <p class="explanation-zh">人的一生，口中藏着一把斧头，砍伤自身的，正是那些恶言语。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">In a person's life an axe dwells in the mouth; what hacks the self to pieces is their own harmful speech.</p>
+        <p class="explanation">The axe in the mouth: one of the great images of consequences of speech in world literature. We forge our own instrument of self-destruction every time we speak harmfully.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>诤为少利，如掩失财，从彼致诤，令意向恶。</strong></p>
+      <p class="explanation-zh">为小利而争论，就像为了掩盖小利而失去大财，由此引发争端，使心趋向恶道。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Quarrelling for small gain is like losing great wealth through concealment; letting it lead to conflict turns the mind toward evil.</p>
+        <p class="explanation">Short-term thinking applied to speech: the quarrel that wins a small point typically loses the larger relationship and corrupts the mind.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>誉恶恶所誉，是二俱为恶，好以口侩斗，是后皆无安。</strong></p>
+      <p class="explanation-zh">称誉坏事，或被坏事所誉，这两者都是恶；喜欢用嘴口相争，之后皆无安宁。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Praising evil or praised by evil — both are evil; those who love to fight with words will find no peace afterward.</p>
+        <p class="explanation">The corruption of speech goes in both directions: speaking harmfully and accepting harmful praise are equally problematic. Words shape moral reality.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>无道堕恶道，自增地狱苦，远愚修忍意，念谛则无犯。</strong></p>
+      <p class="explanation-zh">走上无道之路则堕入恶道，自增地狱之苦，远离愚者、修习忍意，忆念真谛则不违犯。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Going the wrong path, one falls to evil realms, increasing the suffering of hell; keeping away from fools, cultivating patience, and being mindful of truth — one does not transgress.</p>
+        <p class="explanation">The consequences of wrong speech reach across lifetimes. The remedy: distance from those who model harmful speech, patient endurance, and anchoring in truth.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>从善得解脱，为恶不得解，善解者为贤，是为脱恶恼。</strong></p>
+      <p class="explanation-zh">从善中得到解脱，行恶则不得解脱，善于解脱的人才是贤者，这是脱离恶与烦恼的道路。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Through good one gains liberation; through evil one does not; the one who is good at liberating is the wise person — this is how one escapes evil and affliction.</p>
+        <p class="explanation">Liberation is not an external gift but the natural outcome of the quality of one's conduct. The 'good at liberating' person is one whose speech and action consistently open rather than close.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>解自抱损意，不躁言得中，义说如法说，是言柔软甘。</strong></p>
+      <p class="explanation-zh">理解自己所抱持的损害之意，不轻躁地言语而能得到适中，义说、法说，这样的言语柔软而甘美。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Understanding the harmful intent one harbors; speaking without rashness and finding the middle; speaking what is meaningful and lawful — such words are gentle and sweet.</p>
+        <p class="explanation">The anatomy of wise speech: self-knowledge (what am I actually communicating?), restraint, balance, truthfulness. Words with these qualities are experienced as sweet precisely because they nourish rather than cut.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>是以言语者，必使己无患，亦不克众人，是为能善言。</strong></p>
+      <p class="explanation-zh">因此说话者，必须使自己无祸患，也不伤害众人，这才是善于言语。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Therefore one who speaks must ensure that speech harms neither oneself nor others — this is called speaking well.</p>
+        <p class="explanation">The double standard for good speech: it must be harmless to both speaker and listener. Speech that damages either party, however clever or satisfying, has failed by this measure.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>言使投意可，亦令得欢喜，不使至恶意，出言众悉可。</strong></p>
+      <p class="explanation-zh">言语使人心意投合，也让人得到欢喜，不使人产生恶意，出口的话人人都能接受。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Speech that strikes the heart rightly; that also brings delight; that does not give rise to ill will; words that when spoken are accepted by everyone.</p>
+        <p class="explanation">Four qualities of speech that lands well: resonance, delight, non-harm, universal acceptance. These qualities together define the highest standard of communication.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>至诚甘露说，如法而无过，谛如义如法，是为近道立。</strong></p>
+      <p class="explanation-zh">至诚的甘露之说，如法而无过失，真实、如义、如法，这是亲近于道的立场。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">Sincere speech like sweet nectar; according to the Dharma and without fault; true, meaningful, and lawful — this is the stance of one close to the path.</p>
+        <p class="explanation">The highest quality of speech is described as nectar: nourishing, sweet, and life-giving. Truth, meaningfulness, and accordance with the Dharma are its three marks.</p>
+      </div>
+    </div>
+
+    <div class="explanation-card">
+      <p class="line"><strong>说如佛言者，是吉得灭度，为能作浩际，是谓言中上。</strong></p>
+      <p class="explanation-zh">说话如同佛言者，是吉祥的，能得灭度，能够成为广大的边际，这才是言语中的最上等。</p>
+      <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+      <div class="detail-content" hidden>
+        <p class="translation">One who speaks as the Buddha spoke is auspicious and reaches liberation; able to create a vast reach of influence — this is the highest kind of speech.</p>
+        <p class="explanation">The Buddha's speech as the standard: not because imitation is the goal but because the Buddha's speech consistently had these qualities — true, beneficial, timely, gentle, and aimed at liberation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="summary">
+    <h2>总结 · Summary</h2>
+    <p class="summary-zh">言语品十二颂，全面阐述言语的伦理与智慧。恶言如斧，砍伤自身；善言如甘露，滋养众生。品章从恶言招怨讲到善言熄怨，从口中之斧讲到佛语之标准，逐步建立起对言语的全面认识：善言须至诚、如法、有义、无过，既不伤己也不损人，如此才是言语中的最上等。</p>
+    <button class="toggle-btn" onclick="toggleDetail(this)" aria-expanded="false">English ▾</button>
+    <div class="detail-content" hidden>
+      <p class="explanation">The chapter on Speech presents twelve verses on the ethics and wisdom of language. From the image of the axe hidden in the mouth, through the qualities of speech that heals versus speech that harms, to the standard of the Buddha's own speech as the model — the chapter builds a complete account of what wise communication requires: sincerity, truth, benefit, timeliness, and the complete absence of harm to self or others.</p>
+    </div>
+  </section>
+
+</main>
+
+<script>
+function toggleDetail(btn) {
+  var content = btn.nextElementSibling;
+  var isHidden = content.hidden;
+  content.hidden = !isHidden;
+  btn.setAttribute('aria-expanded', isHidden);
+  if (isHidden) {
+    btn.textContent = btn.textContent.replace('▾', '▴');
+  } else {
+    btn.textContent = btn.textContent.replace('▴', '▾');
+  }
+}
+
+function speak(text) {
+  const synth = window.speechSynthesis;
+  function loadAndSpeak() {
+    const voices = synth.getVoices();
+    const preferred = voices.find(v => v.name.includes("Ting") && v.lang === "zh-CN");
+    const msg = new SpeechSynthesisUtterance(text);
+    msg.lang = "zh-CN";
+    if (preferred) msg.voice = preferred;
+    msg.rate = 0.9;
+    msg.pitch = 1;
+    synth.speak(msg);
+  }
+  if (speechSynthesis.getVoices().length === 0) {
+    speechSynthesis.onvoiceschanged = loadAndSpeak;
+  } else {
+    loadAndSpeak();
+  }
+}
+</script>
+
+<footer class="site-footer">
+  <a href="https://lugh3456.github.io/DharmaGate/" class="footer-portal-link">The Dharma Gate · 法门无量</a>
+  <p>&copy; 2026 Dhammapada Study</p>
+</footer>
+
+</body>
+</html>
